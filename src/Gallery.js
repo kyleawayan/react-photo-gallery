@@ -80,7 +80,7 @@ const Gallery = React.memo(function Gallery({
     }
     // set default breakpoints if user doesn't specify columns prop
     if (columns === undefined) {
-      columns = 1;
+      columns = 2;
       if (containerWidth >= 500) columns = 2;
       if (containerWidth >= 900) columns = 3;
       if (containerWidth >= 1500) columns = 4;
